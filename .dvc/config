@@ -1,0 +1,4 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = C:\Users\alyas\3 course\MLOops\practice_3\dvc-storage
