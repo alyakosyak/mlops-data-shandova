@@ -1,0 +1,16 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+clearml.conf
+
+# Local DVC cache and remote
+.dvc/cache/
