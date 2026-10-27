@@ -15,3 +15,5 @@ clearml.conf
 # Local DVC cache and remote
 .dvc/cache/
 /data
+
+clearml_downloads/
