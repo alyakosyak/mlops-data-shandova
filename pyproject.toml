@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mlops-data-shandova"
+version = "0.1.0"
+description = "MLOps practice 3: data versioning with DVC and ClearML"
+authors = ["Student"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+dvc = "3.67.1"
+clearml = "2.1.12"
+scikit-learn = "1.9.1"
+pandas = "3.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
